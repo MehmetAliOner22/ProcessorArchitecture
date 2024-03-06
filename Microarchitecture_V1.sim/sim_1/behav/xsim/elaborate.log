@@ -1,0 +1,126 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot TestBench_V1_behav xil_defaultlib.TestBench_V1 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'nextAdress' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/MainModul.sv:31]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 2 for port 'Op' [C:/Users/Mehmet Ali/Downloads/Decoder.sv:17]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'ALUControl' [C:/Users/Mehmet Ali/Downloads/Decoder.sv:21]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'wd' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/MainModul.sv:73]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 3 for port 'rd2' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/MainModul.sv:82]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 8 for port 'SrcB' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/MainModul.sv:91]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/ALU.sv:16]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/ALU.sv:29]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'mux4_output' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/ALU.sv:51]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'address' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/MainModul.sv:99]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'ALUResult' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/MainModul.sv:109]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'outputData' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/MainModul.sv:111]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/PCPlus1.sv:9]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/PCPlus2.sv:9]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'MemtoRegResult' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/MainModul.sv:128]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'PCPlus1' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/MainModul.sv:129]
+WARNING: [VRFC 10-3129] assignment to input 'pc' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/MainModul.sv:32]
+WARNING: [VRFC 10-3129] assignment to input 'PCPlus1' [C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/PCPlus2.sv:10]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/n_bitFullAdder.sv" Line 1. Module n_bitFulladder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/n_bitFullAdder.sv" Line 1. Module n_bitFulladder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/n_bitFullAdder.sv" Line 1. Module n_bitFulladder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/n_bitFullAdder.sv" Line 1. Module n_bitFulladder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/n_bitFullAdder.sv" Line 1. Module n_bitFulladder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/n_bitFullAdder.sv" Line 1. Module n_bitFulladder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/n_bitFullAdder.sv" Line 1. Module n_bitFulladder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/n_bitFullAdder.sv" Line 1. Module n_bitFulladder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Mehmet Ali/Microarchitecture_V1/Microarchitecture_V1.srcs/sources_1/new/FullAdder.sv" Line 1. Module FullAdder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ProgramCounterFunction
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.Main_Decoder
+Compiling module xil_defaultlib.PC_Logic
+Compiling module xil_defaultlib.ALU_Decoder
+Compiling module xil_defaultlib.Decoder
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.RegSrc0
+Compiling module xil_defaultlib.RegSrc1
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.ALUSrc
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.n_bitFulladder
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.MUX4
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.MemtoReg
+Compiling module xil_defaultlib.PCPlus1
+Compiling module xil_defaultlib.PCPlus2
+Compiling module xil_defaultlib.PCSrc
+Compiling module xil_defaultlib.MainModule
+Compiling module xil_defaultlib.TestBench_V1
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TestBench_V1_behav
